@@ -9,5 +9,5 @@ func main() {
 
 	output := input / 0.3048
 
-	fmt.Println("Количество футов: "output)
+	fmt.Println("Количество футов: ", output)
 }
