@@ -7,7 +7,7 @@ func main() {
 	count := len(x)
 	element := x[count-1]
 	for count > 0 {
-		count -= 1
+		count--
 		minimum := x[count]
 		if element > minimum {
 			element = minimum
